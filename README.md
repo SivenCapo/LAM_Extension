@@ -63,11 +63,17 @@ state_dict = state_dict['model_state_dict']
 
 If the above methods still do not resolve the issue, you can print out the state_dict for further debugging. This will help you identify and resolve issues related to the model weight file.
 
-## 5. Pay Attention to Input Color Format
+## 6. Pay Attention to Input Color Format
 
 When using the LAM script, the input image color format is (0, 1). If your model expects input in (0, 255) or any other range, normalize it to the (0, 1) range before running the LAM script to ensure smooth operation.
 
 After completing the above steps, your model will successfully adapt to the LAM visualization script and generate LAM visualizations for the desired model. Best of luck! For any issues, refer to the relevant documentation in the LAM visualization script or perform further debugging.
+
+## 7. How to Start
+
+```cd "your_workspace"/LAM_Demo```
+
+```python test.py```
 
 # Examples:
 ## LAM for SCET：
