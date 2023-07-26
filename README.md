@@ -4,11 +4,17 @@ This document provides a guide on how to extend the LAM visualization script to 
 
 ## 1. Add Custom Model Architecture
 
-Add your own custom model architecture under the path "LAM_Demo/ModelZoo/NN/" and ensure that you assign the `args` parameters from your training configuration file to the model class.
+Add your own custom model architecture under the path
+```LAM_Demo/ModelZoo/NN/
+```
+and ensure that you assign the `args` parameters from your training configuration file to the model class.
 
 ## 2. Add Model Names and Weight File Names
 
-In the "LAM_Demo/ModelZoo/__init__.py" file, add the model names and their corresponding weight file names for which you want to generate LAM visualizations. Define a dictionary here to map model names to their respective weight file names.
+In the 
+```LAM_Demo/ModelZoo/__init__.py
+```
+file, add the model names and their corresponding weight file names for which you want to generate LAM visualizations. Define a dictionary here to map model names to their respective weight file names.
 
 ## 3. Include Model Weight Files
 
@@ -20,7 +26,10 @@ When the state_dict in the weight file saved from your model training does not m
 
 ### Scenario 1: Fields with 'module.' Prefix due to Distributed Training
 
-Solution: You can use the following code in "LAM_Demo/ModelZoo/__init__.py" to remove the 'module.' prefix and match the model's fields:
+Solution: You can use the following code in
+```LAM_Demo/ModelZoo/__init__.py
+```
+ to remove the 'module.' prefix and match the model's fields:
 
 ```python
 state_dict = {k.replace('module.', ''): v for k, v in state_dict.items()}
