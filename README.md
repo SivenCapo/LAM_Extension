@@ -24,7 +24,7 @@ file, add the model names and their corresponding weight file names for which yo
 
 Due to the LFS capacity limitation, we are unable to provide weight files for all models in the project repository.But you can obtain all the models from the website :
 
-[https://drive.google.com/drive/folders/1nyL3gGAWeFJnhrlVIU_Ab6Y89-0qhNa0 and store them in the directory LAM_Demo/ModelZoo/models]
+[https://drive.google.com/drive/folders/1nyL3gGAWeFJnhrlVIU_Ab6Y89-0qhNa0]
 
 and store them in the directory 
 
