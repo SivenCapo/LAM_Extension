@@ -4,7 +4,8 @@ LAM (Latent Attention Maps) is an interpretable technique used to understand the
 
 LAMs are generated through backpropagation of gradients. During the inference stage, we feed the input sample into the neural network and obtain the predicted output. Then, by calculating the gradients of the loss function with respect to the input sample, we obtain the gradient values for each pixel. These gradient values reflect the model's attention level at each position of the input sample.
 
-This document provides a guide on how to extend the LAM visualization script to adapt to various models and generate LAM visualizations for the desired model. Before proceeding with the extension, make sure you are familiar with the basic usage of the LAM visualization script.
+This document provides a guide on how to extend the LAM visualization script to adapt to various models and generate LAM visualizations for the desired model. （I have resolved the issues that were preventing the original version from running successfully :P
+Before proceeding with the extension, make sure you are familiar with the basic usage of the LAM visualization script.
 
 ## 1. Add Custom Model Architecture
 
