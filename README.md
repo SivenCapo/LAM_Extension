@@ -71,9 +71,13 @@ After completing the above steps, your model will successfully adapt to the LAM 
 
 ## 7. How to Start
 
-```cd "your_workspace"/LAM_Demo```
+```shell
+cd "your_workspace"/LAM_Demo
+```
 
-```python test.py```
+```shell
+python test.py
+```
 
 # Examples:
 ## LAM for SCET：
