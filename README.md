@@ -1,4 +1,7 @@
 # LAM Visualization Script Extension Guide
+LAM (Latent Attention Maps) is an interpretable technique used to understand the decision-making process of deep neural network models. It visualizes the attention distribution within the neural network, helping us comprehend the important regions and features that the model focuses on while processing input data. The generation of LAMs is based on input samples and target classes, providing insights into the decision process of the model under various input conditions.
+
+LAMs are generated through backpropagation of gradients. During the inference stage, we feed the input sample into the neural network and obtain the predicted output. Then, by calculating the gradients of the loss function with respect to the input sample, we obtain the gradient values for each pixel. These gradient values reflect the model's attention level at each position of the input sample.
 
 This document provides a guide on how to extend the LAM visualization script to adapt to various models and generate LAM visualizations for the desired model. Before proceeding with the extension, make sure you are familiar with the basic usage of the LAM visualization script.
 
