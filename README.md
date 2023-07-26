@@ -22,15 +22,15 @@ When the state_dict in the weight file saved from your model training does not m
 
 Solution: You can use the following code in "LAM_Demo/ModelZoo/__init__.py" to remove the 'module.' prefix and match the model's fields:
 
-state_dict = {k.replace('module.', ''): v for k, v in state_dict.items()}
+```state_dict = {k.replace('module.', ''): v for k, v in state_dict.items()}```
 
 
 ### Scenario 2: Weight File Dictionary Structure Mismatch
 
 Solution: Assuming the weight file has fields ['epoch', 'model_state_dict'], you can modify the state_dict using the following code:
 
-del state_dict['epoch']
-state_dict = state_dict['model_state_dict']
+```del state_dict['epoch']```
+```state_dict = state_dict['model_state_dict']```
 
 
 ### Scenario 3: Further Debugging
