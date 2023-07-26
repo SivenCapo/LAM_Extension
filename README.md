@@ -63,11 +63,10 @@ When using the LAM script, the input image color format is (0, 1). If your model
 
 After completing the above steps, your model will successfully adapt to the LAM visualization script and generate LAM visualizations for the desired model. Best of luck! For any issues, refer to the relevant documentation in the LAM visualization script or perform further debugging.
 
-#e
-Examples:
-##LAM for SCET：
+# Examples:
+## LAM for SCET：
 ![8b9dbc315ae591c3124f126752b520b](https://github.com/SivenCapo/LAM_Extension/assets/140587950/c8704b8b-c6da-4ea0-82f3-d3da42ca533c)
 
-##LAM for ELAN：
+## LAM for ELAN：
 ![7005dba81bb6536c2a2ee3567b0f8dc](https://github.com/SivenCapo/LAM_Extension/assets/140587950/d2a1aba6-8a6a-426b-b862-e25f3839f5ad)
 
