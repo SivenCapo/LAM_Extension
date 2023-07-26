@@ -74,3 +74,5 @@ After completing the above steps, your model will successfully adapt to the LAM 
 ## LAM for ELAN：
 ![7005dba81bb6536c2a2ee3567b0f8dc](https://github.com/SivenCapo/LAM_Extension/assets/140587950/d2a1aba6-8a6a-426b-b862-e25f3839f5ad)
 
+## LAM for SwinIR：
+![c5ea1e672a0a2dceb2626eb7b977d6c](https://github.com/SivenCapo/LAM_Extension/assets/140587950/0a26ded3-ef36-4068-a640-03f59eb475a1)
